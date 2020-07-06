@@ -16,9 +16,9 @@ public class Application {
 		tab.add(new Salarie(22, 1, 50, "Duca", 2000));
 		tab.add(new Salarie(223, 2, 50, "Duci", 2000));
 		tab.add(new Salarie(24, 5, 50, "Ducz", 2000));
-		tab.add(new Commercial(220, 4, 50, "Ducon", -20, 20, 20000));
+		tab.add(new Commercial(220, 4, 50, "test", -20, 20, 20000));
 		tab.add(new Salarie(24, 5, 50, "Ducz", -2000));
-		tab.add(new Commercial(220, 4, 50, "Ducon", 20, 20, 20000));
+		tab.add(new Commercial(220, 4, 50, "test", 20, 20, 20000));
 		for(Salarie test:tab) {		
 			test.isValid();
 		}
